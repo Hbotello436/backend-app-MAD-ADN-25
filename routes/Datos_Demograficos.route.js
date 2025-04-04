@@ -9,7 +9,7 @@ const {
 } = require('../controllers/Datos_Demograficos.controller');
 
 // Endpoint para recuperar toda la colección de Datos_Demograficos
-router.get('/all', getDatos_Demografico);
+router.get('/all', getDatos_Demograficos);
 // Endpoint para recuperar un elemento de la colección Datos_Demograficos
 router.get('/ById/:id', getDatos_DemograficosById);
 // Endpoint para agregar un nuevo elemento a la coleeción Datos_Demografico
